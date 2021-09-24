@@ -202,14 +202,14 @@ shExpMatch(host, "workday.com"))
   return 'PROXY 172.21.8.67:80';
 }
 
-if(shExpMatch(host, "bbc.com") ||
+else if(shExpMatch(host, "bbc.com") ||
 shExpMatch(host, "www.rainwave.ca") ||
 shExpMatch(host, "www.michaels.com"))
 {
   return 'PROXY 10.88.84.11:8080';
 }
 
-if(shExpMatch(host, "www.tradetech.net") ||
+else if(shExpMatch(host, "www.tradetech.net") ||
 shExpMatch(host, ".tradetech.net") ||
 shExpMatch(host, "1.1.1.1") ||
 shExpMatch(host, "tradestone.kohls.com") ||
@@ -240,3 +240,4 @@ shExpMatch(host, "2012sourcing.cmal.com"))
   return 'PROXY 10.88.68.11:8080';
 }
 
+else { return 'PROXY DIRECT' };
