@@ -206,7 +206,7 @@ else if(shExpMatch(host, "bbc.com") ||
 shExpMatch(host, "www.rainwave.ca") ||
 shExpMatch(host, "www.michaels.com"))
 {
-  return 'PROXY 10.88.84.11:8080';
+  return 'PROXY 10.88.68.11:8080';
 }
 
 else if(shExpMatch(host, "www.tradetech.net") ||
@@ -237,7 +237,7 @@ shExpMatch(host, "us.fotolia.com") ||
 shExpMatch(host, ".hbccag.hbc.com") ||
 shExpMatch(host, "2012sourcing.cmal.com"))
 {
-  return 'PROXY 10.88.68.11:8080';
+  return 'PROXY 10.88.84.11:8080';
 }
 
 else { return 'PROXY DIRECT' };
