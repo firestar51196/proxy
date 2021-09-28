@@ -1,243 +1,245 @@
-if (shExpMatch(host, ".cloudapp.net") ||
-shExpMatch(host, ".mail.protection.outlook.com") ||
-shExpMatch(host, ".office.com") ||
-shExpMatch(host, ".office365.com") ||
-shExpMatch(host, ".onenote.com") ||
-shExpMatch(host, ".protection.outlook.com") ||
-shExpMatch(host, ".store.core.windows.net") ||
-shExpMatch(host, "ajax.aspnetcdn.com") ||
-shExpMatch(host, "asl.configure.office.com") ||
-shExpMatch(host, "attachments.office.net") ||
-shExpMatch(host, "broadcast.officeapps.live.com") ||
-shExpMatch(host, "domains.live.com") ||
-shExpMatch(host, "excel.officeapps.live.com") ||
-shExpMatch(host, "mshrcstorageprod.blob.core.windows.net") ||
-shExpMatch(host, "office.live.com") ||
-shExpMatch(host, "onenote.officeapps.live.com") ||
-shExpMatch(host, "outlook.office.com") ||
-shExpMatch(host, "outlook.office365.com") ||
-shExpMatch(host, "powerpoint-podsws.officeapps.live.com") ||
-shExpMatch(host, "powerpoint.officeapps.live.com") ||
-shExpMatch(host, "r1.res.office365.com") ||
-shExpMatch(host, "r3.res.office365.com") ||
-shExpMatch(host, "r3.res.outlook.com") ||
-shExpMatch(host, "r4.res.office365.com") ||
-shExpMatch(host, "rtc.officeapps.live.com") ||
-shExpMatch(host, "shared.officeapps.live.com") ||
-shExpMatch(host, "smtp.office365.com") ||
-shExpMatch(host, "spoprod-a.akamaihd.net") ||
-shExpMatch(host, "tds.configure.office.com") ||
-shExpMatch(host, "view.officeapps.live.com") ||
-shExpMatch(host, "visio.officeapps.live.com") ||
-shExpMatch(host, "word-edit.officeapps.live.com") ||
-shExpMatch(host, "word-view.officeapps.live.com") ||
-shExpMatch(host, ".sharepoint.com") ||
-shExpMatch(host, ".log.optimizely.com") ||
-shExpMatch(host, "click.email.microsoftonline.com") ||
-shExpMatch(host, "ssw.live.com") ||
-shExpMatch(host, "storage.live.com") ||
-shExpMatch(host, ".search.production.apac.trafficmanager.net") ||
-shExpMatch(host, ".search.production.emea.trafficmanager.net") ||
-shExpMatch(host, ".search.production.us.trafficmanager.net") ||
-shExpMatch(host, "admin.onedrive.com") ||
-shExpMatch(host, "officeclient.microsoft.com") ||
-shExpMatch(host, "skydrive.wns.windows.com") ||
-shExpMatch(host, "g.live.com") ||
-shExpMatch(host, "oneclient.sfx.ms") ||
-shExpMatch(host, ".sharepointonline.com") ||
-shExpMatch(host, "cdn.sharepointonline.com") ||
-shExpMatch(host, "privatecdn.sharepointonline.com") ||
-shExpMatch(host, "publiccdn.sharepointonline.com") ||
-shExpMatch(host, "static.sharepointonline.com") ||
-shExpMatch(host, "prod.msocdn.com") ||
-shExpMatch(host, "watson.telemetry.microsoft.com") ||
-shExpMatch(host, ".svc.ms") ||
-shExpMatch(host, "office365.com") ||
-shExpMatch(host, "odc.officeapps.live.com") ||
-shExpMatch(host, "contentstorage.osi.office.net") ||
-shExpMatch(host, "login.windows.net") ||
-shExpMatch(host, ".aadrm.com") ||
-shExpMatch(host, ".acompli.net") ||
-shExpMatch(host, ".adhybridhealth.azure.com") ||
-shExpMatch(host, ".api.microsoftstream.com") ||
-shExpMatch(host, ".azureedge.net") ||
-shExpMatch(host, ".azurerms.com") ||
-shExpMatch(host, ".cdn.office.net") ||
-shExpMatch(host, ".firstpartyapps.oaspapps.com") ||
-shExpMatch(host, ".helpshift.com") ||
-shExpMatch(host, ".hockeyapp.net") ||
-shExpMatch(host, ".keydelivery.mediaservices.windows.net") ||
-shExpMatch(host, ".localytics.com") ||
-shExpMatch(host, ".media.azure.net") ||
-shExpMatch(host, ".microsoft.com") ||
-shExpMatch(host, ".microsoftonline-p.net") ||
-shExpMatch(host, ".microsoftonline.com") ||
-shExpMatch(host, ".msappproxy.net") ||
-shExpMatch(host, ".msauth.net") ||
-shExpMatch(host, ".msauthimages.net") ||
-shExpMatch(host, ".msecnd.net") ||
-shExpMatch(host, ".msocdn.com") ||
-shExpMatch(host, ".notification.api.microsoftstream.com") ||
-shExpMatch(host, ".o365weve.com") ||
-shExpMatch(host, ".office.net") ||
-shExpMatch(host, ".officeapps.live.com") ||
-shExpMatch(host, ".onmicrosoft.com") ||
-shExpMatch(host, ".outlookmobile.com") ||
-shExpMatch(host, ".outlookmobile.us") ||
-shExpMatch(host, ".portal.cloudappsecurity.com") ||
-shExpMatch(host, ".teams.microsoft.com") ||
-shExpMatch(host, ".tenor.com") ||
-shExpMatch(host, "account.activedirectory.windowsazure.com") ||
-shExpMatch(host, "accounts.accesscontrol.windows.net") ||
-shExpMatch(host, "adminwebservice.microsoftonline.com") ||
-shExpMatch(host, "amp.azure.net") ||
-shExpMatch(host, "amsglob0cdnstream11.azureedge.net") ||
-shExpMatch(host, "amsglob0cdnstream12.azureedge.net") ||
-shExpMatch(host, "api.informationprotection.azure.com") ||
-shExpMatch(host, "api.login.microsoftonline.com") ||
-shExpMatch(host, "api.microsoftstream.com") ||
-shExpMatch(host, "api.passwordreset.microsoftonline.com") ||
-shExpMatch(host, "apis.live.net") ||
-shExpMatch(host, "assets.onestore.ms") ||
-shExpMatch(host, "auth.gfx.ms") ||
-shExpMatch(host, "autologon.microsoftazuread-sso.com") ||
-shExpMatch(host, "az416426.vo.msecnd.net") ||
-shExpMatch(host, "az826701.vo.msecnd.net") ||
-shExpMatch(host, "becws.microsoftonline.com") ||
-shExpMatch(host, "ccs.login.microsoftonline.com") ||
-shExpMatch(host, "cdn.optimizely.com") ||
-shExpMatch(host, "clientconfig.microsoftonline-p.net") ||
-shExpMatch(host, "companymanager.microsoftonline.com") ||
-shExpMatch(host, "device.login.microsoftonline.com") ||
-shExpMatch(host, "ecn.dev.virtualearth.net") ||
-shExpMatch(host, "graph.microsoft.com") ||
-shExpMatch(host, "graph.windows.net") ||
-shExpMatch(host, "hip.microsoftonline-p.net") ||
-shExpMatch(host, "hipservice.microsoftonline.com") ||
-shExpMatch(host, "login-us.microsoftonline.com") ||
-shExpMatch(host, "login.microsoft.com") ||
-shExpMatch(host, "login.microsoftonline-p.com") ||
-shExpMatch(host, "login.microsoftonline.com") ||
-shExpMatch(host, "logincert.microsoftonline.com") ||
-shExpMatch(host, "loginex.microsoftonline.com") ||
-shExpMatch(host, "management.azure.com") ||
-shExpMatch(host, "nexus.microsoftonline-p.com") ||
-shExpMatch(host, "nps.onyx.azure.net") ||
-shExpMatch(host, "officeapps.live.com") ||
-shExpMatch(host, "passwordreset.microsoftonline.com") ||
-shExpMatch(host, "platform.linkedin.com") ||
-shExpMatch(host, "policykeyservice.dc.ad.msft.net") ||
-shExpMatch(host, "provisioningapi.microsoftonline.com") ||
-shExpMatch(host, "rink.hockeyapp.net") ||
-shExpMatch(host, "s0.assets-yammer.com") ||
-shExpMatch(host, "sdk.hockeyapp.net") ||
-shExpMatch(host, "vortex.data.microsoft.com") ||
-shExpMatch(host, "web.microsoftstream.com") ||
-shExpMatch(host, "www.onedrive.com") ||
-shExpMatch(host, "www.azurespeed.com") ||
-shExpMatch(host, ".Microsoftstream.com") ||
-shExpMatch(host, ".Live.com") ||
-shExpMatch(host, ".akamaized.net") ||
-shExpMatch(host, ".windows.com") ||
-shExpMatch(host, ".windows.net") ||
-shExpMatch(host, ".onenote.net") ||
-shExpMatch(host, ".Fung1937.com") ||
-shExpMatch(host, ".Centricbrands.com") ||
-shExpMatch(host, ".lync.com") ||
-shExpMatch(host, "teams.microsoft.com") ||
-shExpMatch(host, ".broadcast.skype.com") ||
-shExpMatch(host, "broadcast.skype.com") ||
-shExpMatch(host, "quicktips.skypeforbusiness.com") ||
-shExpMatch(host, ".sfbassets.com") ||
-shExpMatch(host, ".urlp.sfbassets.com") ||
-shExpMatch(host, "skypemaprdsitus.trafficmanager.net") ||
-shExpMatch(host, ".streaming.mediaservices.windows.net") ||
-shExpMatch(host, "mlccdn.blob.core.windows.net") ||
-shExpMatch(host, "aka.ms") ||
-shExpMatch(host, ".users.storage.live.com") ||
-shExpMatch(host, ".adl.windows.com") ||
-shExpMatch(host, ".skypeforbusiness.com") ||
-shExpMatch(host, "scsinstrument-ss-us.trafficmanager.net") ||
-shExpMatch(host, "scsquery-ss-asia.trafficmanager.net") ||
-shExpMatch(host, "scsquery-ss-eu.trafficmanager.net") ||
-shExpMatch(host, "scsquery-ss-us.trafficmanager.net") ||
-shExpMatch(host, ".msedge.net") ||
-shExpMatch(host, "compass-ssl.microsoft.com") ||
-shExpMatch(host, ".mstea.ms") ||
-shExpMatch(host, ".secure.skypeassets.com") ||
-shExpMatch(host, "mlccdnprod.azureedge.net") ||
-shExpMatch(host, "videoplayercdn.osi.office.net") ||
-shExpMatch(host, "13.107.64.0/18") ||
-shExpMatch(host, "52.112.0.0/14") ||
-shExpMatch(host, "52.120.0.0/14") ||
-shExpMatch(host, "52.238.119.141") ||
-shExpMatch(host, "52.244.160.207") ||
-shExpMatch(host, ".skype.com") ||
-shExpMatch(host, ".us2.oraclecloud.com") ||
-shExpMatch(host, ".globalbrandsgroup.com") ||
-shExpMatch(host, ".googleapis.com") ||
-shExpMatch(host, ".gstatic.com") ||
-shExpMatch(host, ".stockpr.com") ||
-shExpMatch(host, "timex.co.uk") ||
-shExpMatch(host, "www.irasia.com") ||
-shExpMatch(host, "www.tvmpo.com") ||
-shExpMatch(host, "tvmpo.com") ||
-shExpMatch(host, "gmail.com") ||
-shExpMatch(host, ".gmail.com") ||
-shExpMatch(host, "google.com") ||
-shExpMatch(host, ".google.com") ||
-shExpMatch(host, ".google.com.hk") ||
-shExpMatch(host, "google.com.hk") ||
-shExpMatch(host, ".wisegrid.net") ||
-shExpMatch(host, ".cloudfront.net") ||
-shExpMatch(host, "research.lifunggroup.com") ||
-shExpMatch(host, "webmail.kanematsu-textile.com") ||
-shExpMatch(host, "203.26.245.215") ||
-shExpMatch(host, ".retaillink.wal-mart.com") ||
-shExpMatch(host, "tssprd.ae.com") ||
-shExpMatch(host, "www.cgihk.gov.in") ||
-shExpMatch(host, ".workday.com") ||
-shExpMatch(host, "workday.com"))
-{
-  return 'PROXY 172.21.8.67:80';
-}
+function FindProxyForURL(url, host) {
+  if (shExpMatch(host, ".cloudapp.net") ||
+  shExpMatch(host, ".mail.protection.outlook.com") ||
+  shExpMatch(host, ".office.com") ||
+  shExpMatch(host, ".office365.com") ||
+  shExpMatch(host, ".onenote.com") ||
+  shExpMatch(host, ".protection.outlook.com") ||
+  shExpMatch(host, ".store.core.windows.net") ||
+  shExpMatch(host, "ajax.aspnetcdn.com") ||
+  shExpMatch(host, "asl.configure.office.com") ||
+  shExpMatch(host, "attachments.office.net") ||
+  shExpMatch(host, "broadcast.officeapps.live.com") ||
+  shExpMatch(host, "domains.live.com") ||
+  shExpMatch(host, "excel.officeapps.live.com") ||
+  shExpMatch(host, "mshrcstorageprod.blob.core.windows.net") ||
+  shExpMatch(host, "office.live.com") ||
+  shExpMatch(host, "onenote.officeapps.live.com") ||
+  shExpMatch(host, "outlook.office.com") ||
+  shExpMatch(host, "outlook.office365.com") ||
+  shExpMatch(host, "powerpoint-podsws.officeapps.live.com") ||
+  shExpMatch(host, "powerpoint.officeapps.live.com") ||
+  shExpMatch(host, "r1.res.office365.com") ||
+  shExpMatch(host, "r3.res.office365.com") ||
+  shExpMatch(host, "r3.res.outlook.com") ||
+  shExpMatch(host, "r4.res.office365.com") ||
+  shExpMatch(host, "rtc.officeapps.live.com") ||
+  shExpMatch(host, "shared.officeapps.live.com") ||
+  shExpMatch(host, "smtp.office365.com") ||
+  shExpMatch(host, "spoprod-a.akamaihd.net") ||
+  shExpMatch(host, "tds.configure.office.com") ||
+  shExpMatch(host, "view.officeapps.live.com") ||
+  shExpMatch(host, "visio.officeapps.live.com") ||
+  shExpMatch(host, "word-edit.officeapps.live.com") ||
+  shExpMatch(host, "word-view.officeapps.live.com") ||
+  shExpMatch(host, ".sharepoint.com") ||
+  shExpMatch(host, ".log.optimizely.com") ||
+  shExpMatch(host, "click.email.microsoftonline.com") ||
+  shExpMatch(host, "ssw.live.com") ||
+  shExpMatch(host, "storage.live.com") ||
+  shExpMatch(host, ".search.production.apac.trafficmanager.net") ||
+  shExpMatch(host, ".search.production.emea.trafficmanager.net") ||
+  shExpMatch(host, ".search.production.us.trafficmanager.net") ||
+  shExpMatch(host, "admin.onedrive.com") ||
+  shExpMatch(host, "officeclient.microsoft.com") ||
+  shExpMatch(host, "skydrive.wns.windows.com") ||
+  shExpMatch(host, "g.live.com") ||
+  shExpMatch(host, "oneclient.sfx.ms") ||
+  shExpMatch(host, ".sharepointonline.com") ||
+  shExpMatch(host, "cdn.sharepointonline.com") ||
+  shExpMatch(host, "privatecdn.sharepointonline.com") ||
+  shExpMatch(host, "publiccdn.sharepointonline.com") ||
+  shExpMatch(host, "static.sharepointonline.com") ||
+  shExpMatch(host, "prod.msocdn.com") ||
+  shExpMatch(host, "watson.telemetry.microsoft.com") ||
+  shExpMatch(host, ".svc.ms") ||
+  shExpMatch(host, "office365.com") ||
+  shExpMatch(host, "odc.officeapps.live.com") ||
+  shExpMatch(host, "contentstorage.osi.office.net") ||
+  shExpMatch(host, "login.windows.net") ||
+  shExpMatch(host, ".aadrm.com") ||
+  shExpMatch(host, ".acompli.net") ||
+  shExpMatch(host, ".adhybridhealth.azure.com") ||
+  shExpMatch(host, ".api.microsoftstream.com") ||
+  shExpMatch(host, ".azureedge.net") ||
+  shExpMatch(host, ".azurerms.com") ||
+  shExpMatch(host, ".cdn.office.net") ||
+  shExpMatch(host, ".firstpartyapps.oaspapps.com") ||
+  shExpMatch(host, ".helpshift.com") ||
+  shExpMatch(host, ".hockeyapp.net") ||
+  shExpMatch(host, ".keydelivery.mediaservices.windows.net") ||
+  shExpMatch(host, ".localytics.com") ||
+  shExpMatch(host, ".media.azure.net") ||
+  shExpMatch(host, ".microsoft.com") ||
+  shExpMatch(host, ".microsoftonline-p.net") ||
+  shExpMatch(host, ".microsoftonline.com") ||
+  shExpMatch(host, ".msappproxy.net") ||
+  shExpMatch(host, ".msauth.net") ||
+  shExpMatch(host, ".msauthimages.net") ||
+  shExpMatch(host, ".msecnd.net") ||
+  shExpMatch(host, ".msocdn.com") ||
+  shExpMatch(host, ".notification.api.microsoftstream.com") ||
+  shExpMatch(host, ".o365weve.com") ||
+  shExpMatch(host, ".office.net") ||
+  shExpMatch(host, ".officeapps.live.com") ||
+  shExpMatch(host, ".onmicrosoft.com") ||
+  shExpMatch(host, ".outlookmobile.com") ||
+  shExpMatch(host, ".outlookmobile.us") ||
+  shExpMatch(host, ".portal.cloudappsecurity.com") ||
+  shExpMatch(host, ".teams.microsoft.com") ||
+  shExpMatch(host, ".tenor.com") ||
+  shExpMatch(host, "account.activedirectory.windowsazure.com") ||
+  shExpMatch(host, "accounts.accesscontrol.windows.net") ||
+  shExpMatch(host, "adminwebservice.microsoftonline.com") ||
+  shExpMatch(host, "amp.azure.net") ||
+  shExpMatch(host, "amsglob0cdnstream11.azureedge.net") ||
+  shExpMatch(host, "amsglob0cdnstream12.azureedge.net") ||
+  shExpMatch(host, "api.informationprotection.azure.com") ||
+  shExpMatch(host, "api.login.microsoftonline.com") ||
+  shExpMatch(host, "api.microsoftstream.com") ||
+  shExpMatch(host, "api.passwordreset.microsoftonline.com") ||
+  shExpMatch(host, "apis.live.net") ||
+  shExpMatch(host, "assets.onestore.ms") ||
+  shExpMatch(host, "auth.gfx.ms") ||
+  shExpMatch(host, "autologon.microsoftazuread-sso.com") ||
+  shExpMatch(host, "az416426.vo.msecnd.net") ||
+  shExpMatch(host, "az826701.vo.msecnd.net") ||
+  shExpMatch(host, "becws.microsoftonline.com") ||
+  shExpMatch(host, "ccs.login.microsoftonline.com") ||
+  shExpMatch(host, "cdn.optimizely.com") ||
+  shExpMatch(host, "clientconfig.microsoftonline-p.net") ||
+  shExpMatch(host, "companymanager.microsoftonline.com") ||
+  shExpMatch(host, "device.login.microsoftonline.com") ||
+  shExpMatch(host, "ecn.dev.virtualearth.net") ||
+  shExpMatch(host, "graph.microsoft.com") ||
+  shExpMatch(host, "graph.windows.net") ||
+  shExpMatch(host, "hip.microsoftonline-p.net") ||
+  shExpMatch(host, "hipservice.microsoftonline.com") ||
+  shExpMatch(host, "login-us.microsoftonline.com") ||
+  shExpMatch(host, "login.microsoft.com") ||
+  shExpMatch(host, "login.microsoftonline-p.com") ||
+  shExpMatch(host, "login.microsoftonline.com") ||
+  shExpMatch(host, "logincert.microsoftonline.com") ||
+  shExpMatch(host, "loginex.microsoftonline.com") ||
+  shExpMatch(host, "management.azure.com") ||
+  shExpMatch(host, "nexus.microsoftonline-p.com") ||
+  shExpMatch(host, "nps.onyx.azure.net") ||
+  shExpMatch(host, "officeapps.live.com") ||
+  shExpMatch(host, "passwordreset.microsoftonline.com") ||
+  shExpMatch(host, "platform.linkedin.com") ||
+  shExpMatch(host, "policykeyservice.dc.ad.msft.net") ||
+  shExpMatch(host, "provisioningapi.microsoftonline.com") ||
+  shExpMatch(host, "rink.hockeyapp.net") ||
+  shExpMatch(host, "s0.assets-yammer.com") ||
+  shExpMatch(host, "sdk.hockeyapp.net") ||
+  shExpMatch(host, "vortex.data.microsoft.com") ||
+  shExpMatch(host, "web.microsoftstream.com") ||
+  shExpMatch(host, "www.onedrive.com") ||
+  shExpMatch(host, "www.azurespeed.com") ||
+  shExpMatch(host, ".Microsoftstream.com") ||
+  shExpMatch(host, ".Live.com") ||
+  shExpMatch(host, ".akamaized.net") ||
+  shExpMatch(host, ".windows.com") ||
+  shExpMatch(host, ".windows.net") ||
+  shExpMatch(host, ".onenote.net") ||
+  shExpMatch(host, ".Fung1937.com") ||
+  shExpMatch(host, ".Centricbrands.com") ||
+  shExpMatch(host, ".lync.com") ||
+  shExpMatch(host, "teams.microsoft.com") ||
+  shExpMatch(host, ".broadcast.skype.com") ||
+  shExpMatch(host, "broadcast.skype.com") ||
+  shExpMatch(host, "quicktips.skypeforbusiness.com") ||
+  shExpMatch(host, ".sfbassets.com") ||
+  shExpMatch(host, ".urlp.sfbassets.com") ||
+  shExpMatch(host, "skypemaprdsitus.trafficmanager.net") ||
+  shExpMatch(host, ".streaming.mediaservices.windows.net") ||
+  shExpMatch(host, "mlccdn.blob.core.windows.net") ||
+  shExpMatch(host, "aka.ms") ||
+  shExpMatch(host, ".users.storage.live.com") ||
+  shExpMatch(host, ".adl.windows.com") ||
+  shExpMatch(host, ".skypeforbusiness.com") ||
+  shExpMatch(host, "scsinstrument-ss-us.trafficmanager.net") ||
+  shExpMatch(host, "scsquery-ss-asia.trafficmanager.net") ||
+  shExpMatch(host, "scsquery-ss-eu.trafficmanager.net") ||
+  shExpMatch(host, "scsquery-ss-us.trafficmanager.net") ||
+  shExpMatch(host, ".msedge.net") ||
+  shExpMatch(host, "compass-ssl.microsoft.com") ||
+  shExpMatch(host, ".mstea.ms") ||
+  shExpMatch(host, ".secure.skypeassets.com") ||
+  shExpMatch(host, "mlccdnprod.azureedge.net") ||
+  shExpMatch(host, "videoplayercdn.osi.office.net") ||
+  shExpMatch(host, "13.107.64.0/18") ||
+  shExpMatch(host, "52.112.0.0/14") ||
+  shExpMatch(host, "52.120.0.0/14") ||
+  shExpMatch(host, "52.238.119.141") ||
+  shExpMatch(host, "52.244.160.207") ||
+  shExpMatch(host, ".skype.com") ||
+  shExpMatch(host, ".us2.oraclecloud.com") ||
+  shExpMatch(host, ".globalbrandsgroup.com") ||
+  shExpMatch(host, ".googleapis.com") ||
+  shExpMatch(host, ".gstatic.com") ||
+  shExpMatch(host, ".stockpr.com") ||
+  shExpMatch(host, "timex.co.uk") ||
+  shExpMatch(host, "www.irasia.com") ||
+  shExpMatch(host, "www.tvmpo.com") ||
+  shExpMatch(host, "tvmpo.com") ||
+  shExpMatch(host, "gmail.com") ||
+  shExpMatch(host, ".gmail.com") ||
+  shExpMatch(host, "google.com") ||
+  shExpMatch(host, ".google.com") ||
+  shExpMatch(host, ".google.com.hk") ||
+  shExpMatch(host, "google.com.hk") ||
+  shExpMatch(host, ".wisegrid.net") ||
+  shExpMatch(host, ".cloudfront.net") ||
+  shExpMatch(host, "research.lifunggroup.com") ||
+  shExpMatch(host, "webmail.kanematsu-textile.com") ||
+  shExpMatch(host, "203.26.245.215") ||
+  shExpMatch(host, ".retaillink.wal-mart.com") ||
+  shExpMatch(host, "tssprd.ae.com") ||
+  shExpMatch(host, "www.cgihk.gov.in") ||
+  shExpMatch(host, ".workday.com") ||
+  shExpMatch(host, "workday.com"))
+  {
+    return 'PROXY 172.21.8.67:80';
+  }
 
-else if(shExpMatch(host, "bbc.com") ||
-shExpMatch(host, "www.rainwave.ca") ||
-shExpMatch(host, "www.michaels.com"))
-{
-  return 'PROXY 10.88.68.11:8080';
-}
+  else if(shExpMatch(host, "bbc.com") ||
+  shExpMatch(host, "www.rainwave.ca") ||
+  shExpMatch(host, "www.michaels.com"))
+  {
+    return 'PROXY 10.88.68.11:8080';
+  }
 
-else if(shExpMatch(host, "www.tradetech.net") ||
-shExpMatch(host, ".tradetech.net") ||
-shExpMatch(host, "1.1.1.1") ||
-shExpMatch(host, "tradestone.kohls.com") ||
-shExpMatch(host, "www.payless.com") ||
-shExpMatch(host, "www.jcpenney.com") ||
-shExpMatch(host, "jcpenney.com") ||
-shExpMatch(host, "192.168.104.43") ||
-shExpMatch(host, "access.ae.com") ||
-shExpMatch(host, "demo134.icims.com") ||
-shExpMatch(host, "execed.mit.edu") ||
-shExpMatch(host, "extranet.talbots.com") ||
-shExpMatch(host, "lfusa.icims.com") ||
-shExpMatch(host, "reports.ae.com") ||
-shExpMatch(host, "retaillink.wal-mart.com") ||
-shExpMatch(host, "rllogin.wal-mart.com") ||
-shExpMatch(host, "sharepoint.lfusa.com") ||
-shExpMatch(host, "tssprd.ae.com") ||
-shExpMatch(host, "eapps1.carters.com") ||
-shExpMatch(host, "www.sainsburyscolourshop.com") ||
-shExpMatch(host, "hdsupplysolutions.com") ||
-shExpMatch(host, "lasvpn.janieandjack.com") ||
-shExpMatch(host, "flexplm.carters.com") ||
-shExpMatch(host, "lwi.liz.com") ||
-shExpMatch(host, "us.fotolia.com") ||
-shExpMatch(host, ".hbccag.hbc.com") ||
-shExpMatch(host, "2012sourcing.cmal.com"))
-{
-  return 'PROXY 10.88.84.11:8080';
-}
+  else if(shExpMatch(host, "www.tradetech.net") ||
+  shExpMatch(host, ".tradetech.net") ||
+  shExpMatch(host, "1.1.1.1") ||
+  shExpMatch(host, "tradestone.kohls.com") ||
+  shExpMatch(host, "www.payless.com") ||
+  shExpMatch(host, "www.jcpenney.com") ||
+  shExpMatch(host, "jcpenney.com") ||
+  shExpMatch(host, "192.168.104.43") ||
+  shExpMatch(host, "access.ae.com") ||
+  shExpMatch(host, "demo134.icims.com") ||
+  shExpMatch(host, "execed.mit.edu") ||
+  shExpMatch(host, "extranet.talbots.com") ||
+  shExpMatch(host, "lfusa.icims.com") ||
+  shExpMatch(host, "reports.ae.com") ||
+  shExpMatch(host, "retaillink.wal-mart.com") ||
+  shExpMatch(host, "rllogin.wal-mart.com") ||
+  shExpMatch(host, "sharepoint.lfusa.com") ||
+  shExpMatch(host, "tssprd.ae.com") ||
+  shExpMatch(host, "eapps1.carters.com") ||
+  shExpMatch(host, "www.sainsburyscolourshop.com") ||
+  shExpMatch(host, "hdsupplysolutions.com") ||
+  shExpMatch(host, "lasvpn.janieandjack.com") ||
+  shExpMatch(host, "flexplm.carters.com") ||
+  shExpMatch(host, "lwi.liz.com") ||
+  shExpMatch(host, "us.fotolia.com") ||
+  shExpMatch(host, ".hbccag.hbc.com") ||
+  shExpMatch(host, "2012sourcing.cmal.com"))
+  {
+    return 'PROXY 10.88.84.11:8080';
+  }
 
-else { return 'PROXY DIRECT' };
+  else { return 'PROXY DIRECT' };
+}
